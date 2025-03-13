@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Typography, Button, Box, useMediaQuery } from '@mui/material';
-import { useTheme } from '@mui/material/styles';
 import CartItem from './CartItem';
 import { fetchCartData } from '../services/cartService';
 import { Cart as CartType } from '../types/cart';
@@ -8,7 +7,6 @@ import { Cart as CartType } from '../types/cart';
 const Cart: React.FC = () => {
   const [cart, setCart] = useState<CartType>({ products: [], total: 0 });
   const [initialCart, setInitialCart] = useState<CartType>({ products: [], total: 0 });
-  const theme = useTheme();
   const isMobile = useMediaQuery('(max-width:800px)');
 
   useEffect(() => {

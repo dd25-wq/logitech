@@ -8,4 +8,4 @@ export interface Product {
 export interface Cart {
   products: Product[];
   total: number;
-} 
+}

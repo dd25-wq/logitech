@@ -17,4 +17,4 @@ export const fetchCartData = async (): Promise<Cart> => {
     console.error('Error fetching cart data:', error);
     return { products: [], total: 0 };
   }
-}; 
+};
