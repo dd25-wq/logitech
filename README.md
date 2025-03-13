@@ -32,16 +32,6 @@ This project demonstrates a Shopping Cart component built using React. The compo
 2. Open http://localhost:3000 in your browser to view the application.
 
 
-
-### Project Structure
-- `src/`: Contains the source code for the application.
-  - `components/`: Contains the React components.
-    - `Cart.js`: The main Cart component.
-  - `styles/`: Contains the CSS files for styling.
-    - `Cart.css`: Styles for the Cart component.
-  - `App.js`: The main application file.
-  - `index.js`: The entry point of the application.
-
 ### API
 This project uses the DummyJSON cart API to fetch cart data. For more information, visit the [DummyJSON documentation](https://dummyjson.com/docs/carts).
 
